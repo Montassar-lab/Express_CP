@@ -1,0 +1,77 @@
+#contact-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  label, input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  nav {
+    background-color: #333; /* sets the background color of the navbar */
+  }
+  
+  nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+    overflow: hidden; 
+  }
+  
+  nav li {
+    float: left; /* make the list items float left */
+  }
+  
+  nav a {
+    display: block; /* make the links block-level elements */
+    color: white; /* sets the text color of the links */
+    text-align: center; /* center the text within the links */
+    padding: 14px 16px; /* sets the padding for the links */
+    text-decoration: none; /* remove underlines from the links */
+  }
+  
+  nav a:hover {
+    background-color: #111; /* sets the background color of the links on hover */
+  }
+
+#services-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.service h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service p {
+  line-height: 1.5;
+}
